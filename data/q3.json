@@ -1,0 +1,55 @@
+{
+ "chk": [
+  {
+   "N": 8,
+   "PG": 8,
+   "PG_dB": 9.030899869919436,
+   "walsh_max_offdiag": 0.0,
+   "random_max_abs_corr": 0.75,
+   "random_rms_corr": 0.35038244411336755,
+   "theory_rms": 0.35355339059327373,
+   "walsh_async_worst_corr": 1.0,
+   "noiseless_walsh_sync_errors": 0,
+   "noiseless_walsh_async10x_errors": 8945,
+   "bits": 80000
+  },
+  {
+   "N": 16,
+   "PG": 16,
+   "PG_dB": 12.041199826559248,
+   "walsh_max_offdiag": 0.0,
+   "random_max_abs_corr": 0.75,
+   "random_rms_corr": 0.25995792928856776,
+   "theory_rms": 0.25,
+   "walsh_async_worst_corr": 1.0,
+   "noiseless_walsh_sync_errors": 0,
+   "noiseless_walsh_async10x_errors": 6963,
+   "bits": 160000
+  },
+  {
+   "N": 64,
+   "PG": 64,
+   "PG_dB": 18.06179973983887,
+   "walsh_max_offdiag": 0.0,
+   "random_max_abs_corr": 0.40625,
+   "random_rms_corr": 0.12528644016131055,
+   "theory_rms": 0.125,
+   "walsh_async_worst_corr": 1.0,
+   "noiseless_walsh_sync_errors": 0,
+   "noiseless_walsh_async10x_errors": 7355,
+   "bits": 640000
+  }
+ ],
+ "kmax_theory": {
+  "8": 2,
+  "16": 3,
+  "64": 9,
+  "128": 18
+ },
+ "kmax_sim": {
+  "8": 2,
+  "16": 3,
+  "64": 9
+ },
+ "target": 0.01
+}

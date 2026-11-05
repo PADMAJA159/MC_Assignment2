@@ -1,0 +1,41 @@
+[
+ {
+  "avail": 0.3,
+  "generated": 96.0,
+  "uptime": 0.3,
+  "A_delivered": 28.778,
+  "A_lost": 67.222,
+  "B_immediate": 28.778,
+  "B_delayed": 61.464,
+  "B_lost_overflow": 1.693,
+  "B_pending_end": 4.065,
+  "B_mean_delay_min": 17.353,
+  "B_max_delay_min": 77.41
+ },
+ {
+  "avail": 0.6,
+  "generated": 96.0,
+  "uptime": 0.602,
+  "A_delivered": 57.764,
+  "A_lost": 38.236,
+  "B_immediate": 57.764,
+  "B_delayed": 34.955,
+  "B_lost_overflow": 0.783,
+  "B_pending_end": 2.498,
+  "B_mean_delay_min": 9.478,
+  "B_max_delay_min": 64.01
+ },
+ {
+  "avail": 0.9,
+  "generated": 96.0,
+  "uptime": 0.9,
+  "A_delivered": 86.374,
+  "A_lost": 9.626,
+  "B_immediate": 86.374,
+  "B_delayed": 8.794,
+  "B_lost_overflow": 0.228,
+  "B_pending_end": 0.604,
+  "B_mean_delay_min": 2.437,
+  "B_max_delay_min": 29.936
+ }
+]

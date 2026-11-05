@@ -1,0 +1,148 @@
+{
+ "beam": [
+  {
+   "N": 2,
+   "HPBW_deg": 60.0,
+   "HPBW_theory": 50.75,
+   "null_to_null_deg": 180.0,
+   "SLL_dB": NaN,
+   "peak_gain_dBi_rel": 3.010299956639812
+  },
+  {
+   "N": 4,
+   "HPBW_deg": 26.319999999999993,
+   "HPBW_theory": 25.375,
+   "null_to_null_deg": 60.00000000000001,
+   "SLL_dB": -11.303337791201058,
+   "peak_gain_dBi_rel": 6.020599913279624
+  },
+  {
+   "N": 8,
+   "HPBW_deg": 12.799999999999997,
+   "HPBW_theory": 12.6875,
+   "null_to_null_deg": 28.95502437185985,
+   "SLL_dB": -12.797347896865576,
+   "peak_gain_dBi_rel": 9.030899869919436
+  },
+  {
+   "N": 16,
+   "HPBW_deg": 6.340000000000003,
+   "HPBW_theory": 6.34375,
+   "null_to_null_deg": 14.361511562916563,
+   "SLL_dB": -13.14683680190688,
+   "peak_gain_dBi_rel": 12.041199826559248
+  }
+ ],
+ "minsep": [
+  {
+   "N": 2,
+   "thr_dB": 10,
+   "first_cross_deg": 52.7,
+   "always_ok_beyond_deg": 52.7
+  },
+  {
+   "N": 2,
+   "thr_dB": 15,
+   "first_cross_deg": NaN,
+   "always_ok_beyond_deg": NaN
+  },
+  {
+   "N": 4,
+   "thr_dB": 10,
+   "first_cross_deg": 22.1,
+   "always_ok_beyond_deg": 22.1
+  },
+  {
+   "N": 4,
+   "thr_dB": 15,
+   "first_cross_deg": 25.300000000000004,
+   "always_ok_beyond_deg": NaN
+  },
+  {
+   "N": 8,
+   "thr_dB": 10,
+   "first_cross_deg": 10.700000000000001,
+   "always_ok_beyond_deg": 10.700000000000001
+  },
+  {
+   "N": 8,
+   "thr_dB": 15,
+   "first_cross_deg": 12.3,
+   "always_ok_beyond_deg": 24.700000000000003
+  },
+  {
+   "N": 16,
+   "thr_dB": 10,
+   "first_cross_deg": 5.3,
+   "always_ok_beyond_deg": 5.3
+  },
+  {
+   "N": 16,
+   "thr_dB": 15,
+   "first_cross_deg": 6.1,
+   "always_ok_beyond_deg": 11.9
+  }
+ ],
+ "steer": [
+  {
+   "N": 2,
+   "steer_deg": 0,
+   "HPBW_deg": 60.0
+  },
+  {
+   "N": 2,
+   "steer_deg": 30,
+   "HPBW_deg": 180.0
+  },
+  {
+   "N": 2,
+   "steer_deg": 60,
+   "HPBW_deg": 180.0
+  },
+  {
+   "N": 4,
+   "steer_deg": 0,
+   "HPBW_deg": 26.319999999999993
+  },
+  {
+   "N": 4,
+   "steer_deg": 30,
+   "HPBW_deg": 30.879999999999995
+  },
+  {
+   "N": 4,
+   "steer_deg": 60,
+   "HPBW_deg": 180.0
+  },
+  {
+   "N": 8,
+   "steer_deg": 0,
+   "HPBW_deg": 12.799999999999997
+  },
+  {
+   "N": 8,
+   "steer_deg": 30,
+   "HPBW_deg": 14.819999999999993
+  },
+  {
+   "N": 8,
+   "steer_deg": 60,
+   "HPBW_deg": 28.829999999999984
+  },
+  {
+   "N": 16,
+   "steer_deg": 0,
+   "HPBW_deg": 6.340000000000003
+  },
+  {
+   "N": 16,
+   "steer_deg": 30,
+   "HPBW_deg": 7.340000000000003
+  },
+  {
+   "N": 16,
+   "steer_deg": 60,
+   "HPBW_deg": 12.980000000000018
+  }
+ ]
+}

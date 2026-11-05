@@ -1,0 +1,125 @@
+{
+ "cap": {
+  "FDMA": {
+   "nominal": 80.0,
+   "edge_guard": 2,
+   "control": 2,
+   "usable": 76.0,
+   "payload_eff": 0.99,
+   "eff_channels": 75.24,
+   "payload_kbps": 1881.0
+  },
+  "TDMA": {
+   "carriers": 10.0,
+   "nominal": 80.0,
+   "edge_guard_slots": 8,
+   "control": 2,
+   "usable": 70.0,
+   "payload_eff": 0.6734769230769231,
+   "eff_channels": 47.14338461538462,
+   "payload_kbps": 1595.998035692308
+  },
+  "burst_eff": 0.7296,
+  "mf_eff": 0.9230769230769231
+ },
+ "rows": [
+  {
+   "dataset": "D1_voice",
+   "scheme": "FDMA",
+   "calls": 3865.4,
+   "blocking": 0.047852447876289436,
+   "utilisation": 0.8294819071361216,
+   "occupancy": 0.8848930432069348,
+   "wasted_held": 0.011166483910466526,
+   "unusable_static": 0.050000000000000044
+  },
+  {
+   "dataset": "D1_voice",
+   "scheme": "TDMA",
+   "calls": 3865.4,
+   "blocking": 0.09573656818729068,
+   "utilisation": 0.5365047664593644,
+   "occupancy": 0.9149611054588298,
+   "wasted_held": 0.26408620081711176,
+   "unusable_static": 0.125
+  },
+  {
+   "dataset": "D2_bursty",
+   "scheme": "FDMA",
+   "calls": 1508.4,
+   "blocking": 0.040811027600355196,
+   "utilisation": 0.08271524418723188,
+   "occupancy": 0.8806350259142146,
+   "wasted_held": 0.753888030431272,
+   "unusable_static": 0.050000000000000044
+  },
+  {
+   "dataset": "D2_bursty",
+   "scheme": "TDMA",
+   "calls": 1508.4,
+   "blocking": 0.08305439240872574,
+   "utilisation": 0.05364834390916419,
+   "occupancy": 0.9121815373436529,
+   "wasted_held": 0.7445105012665321,
+   "unusable_static": 0.125
+  },
+  {
+   "dataset": "D3_mix70_30",
+   "scheme": "FDMA",
+   "calls": 2631.8,
+   "blocking": 0.036365422602635186,
+   "utilisation": 0.44462629282178207,
+   "occupancy": 0.8792170632292116,
+   "wasted_held": 0.3906299172459689,
+   "unusable_static": 0.050000000000000044
+  },
+  {
+   "dataset": "D3_mix70_30",
+   "scheme": "TDMA",
+   "calls": 2631.8,
+   "blocking": 0.07930753446785795,
+   "utilisation": 0.288401131147199,
+   "occupancy": 0.9129266741989595,
+   "wasted_held": 0.5104097087768904,
+   "unusable_static": 0.125
+  },
+  {
+   "dataset": "D4_sync_short",
+   "scheme": "FDMA",
+   "calls": 59400.0,
+   "blocking": 0.15555555555555556,
+   "utilisation": 0.18627349398068155,
+   "occupancy": 0.2380579414999268,
+   "wasted_held": 0.03988155044424892,
+   "unusable_static": 0.050000000000000044
+  },
+  {
+   "dataset": "D4_sync_short",
+   "scheme": "TDMA",
+   "calls": 59400.0,
+   "blocking": 0.22222222222222224,
+   "utilisation": 0.10141059707707116,
+   "occupancy": 0.2320887847224725,
+   "wasted_held": 0.1016670895550923,
+   "unusable_static": 0.125
+  }
+ ],
+ "erlangB": {
+  "D1_FDMA": 0.04681685219535093,
+  "D1_TDMA": 0.09238514968493286,
+  "D2_FDMA": 0.045975178565911115,
+  "D2_TDMA": 0.09069257427978923
+ },
+ "tele": {
+  "report_bits": 1600,
+  "period_s": 60,
+  "slot_payload_bps": 22799.971938461542,
+  "airtime_per_report_s": 0.0701755249663681,
+  "duty": 0.0011695920827728017,
+  "devices_dedicated_max": 76.0,
+  "agg_bps_per_device": 26.666666666666668,
+  "devices_per_slot_ideal": 854.9989476923078,
+  "devices_per_slot_aloha": 314.6396127507693,
+  "devices_per_slot_poll": 683.9991581538463
+ }
+}

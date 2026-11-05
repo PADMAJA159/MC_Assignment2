@@ -1,0 +1,168 @@
+{
+ "orth": {
+  "gram_abs": [
+   [
+    1.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    1.0
+   ]
+  ],
+  "max_offdiag": 1.5247403375427063e-16,
+  "leak_df_offset_0p1": 0.08946452564254008,
+  "leak_df_offset_0p3": 0.19822535920316825
+ },
+ "evm_cp": {
+  "0": 0.0643378185870293,
+  "2": 0.017962993266136693,
+  "4": 0.0007041054435121146,
+  "5": 3.0179967415079356e-31,
+  "8": 3.907098448474414e-31,
+  "16": 3.1026529181434207e-31
+ },
+ "res": {
+  "Contiguous blocks": {
+   "sum_Mbps": 64.6912001009419,
+   "jain_longterm": 0.8112778834951636,
+   "jain_inst": 0.7730461564792142,
+   "min_user_Mbps": 2.6675122126785467,
+   "all_ge_rmin": 0.521,
+   "per_user": [
+    14.3,
+    12.42,
+    10.65,
+    8.71,
+    6.89,
+    5.31,
+    3.75,
+    2.67
+   ],
+   "weakest_outage": 0.358,
+   "users_below_rmin": 0.559
+  },
+  "Interleaved RR": {
+   "sum_Mbps": 64.6608746764447,
+   "jain_longterm": 0.8127754228618979,
+   "jain_inst": 0.8011124659033395,
+   "min_user_Mbps": 2.6760685584792467,
+   "all_ge_rmin": 0.81,
+   "per_user": [
+    14.33,
+    12.42,
+    10.5,
+    8.67,
+    6.95,
+    5.31,
+    3.82,
+    2.68
+   ],
+   "weakest_outage": 0.175,
+   "users_below_rmin": 0.191
+  },
+  "Best-subcarrier (max-sum)": {
+   "sum_Mbps": 125.72802964061377,
+   "jain_longterm": 0.2700601609201383,
+   "jain_inst": 0.25478709691848167,
+   "min_user_Mbps": 0.0,
+   "all_ge_rmin": 0.0,
+   "per_user": [
+    77.63,
+    34.1,
+    10.99,
+    2.62,
+    0.37,
+    0.01,
+    0.0,
+    0.0
+   ],
+   "weakest_outage": 1.0,
+   "users_below_rmin": 4.842
+  },
+  "Max-min greedy": {
+   "sum_Mbps": 69.4392106681065,
+   "jain_longterm": 0.9986658601622567,
+   "jain_inst": 0.9968738571413058,
+   "min_user_Mbps": 8.211737555933885,
+   "all_ge_rmin": 1.0,
+   "per_user": [
+    9.19,
+    9.01,
+    8.88,
+    8.75,
+    8.61,
+    8.47,
+    8.32,
+    8.21
+   ],
+   "weakest_outage": 0.0,
+   "users_below_rmin": 0.0
+  },
+  "Min-rate + max-sum (proposed)": {
+   "sum_Mbps": 114.22643788739045,
+   "jain_longterm": 0.3541765358995348,
+   "jain_inst": 0.3332933624782726,
+   "min_user_Mbps": 2.327702613487632,
+   "all_ge_rmin": 1.0,
+   "per_user": [
+    60.6,
+    27.65,
+    10.81,
+    4.95,
+    2.99,
+    2.43,
+    2.45,
+    2.33
+   ],
+   "weakest_outage": 0.0,
+   "users_below_rmin": 0.0
+  }
+ },
+ "nusers": [
+  {
+   "users": 1,
+   "interleaved_Mbps": 55.43785868949718,
+   "best_Mbps": 55.43785868949718,
+   "gain_pct": 0.0
+  },
+  {
+   "users": 2,
+   "interleaved_Mbps": 55.4553349496402,
+   "best_Mbps": 68.54481229401729,
+   "gain_pct": 23.603639498821583
+  },
+  {
+   "users": 4,
+   "interleaved_Mbps": 55.13292790618636,
+   "best_Mbps": 78.08148696623348,
+   "gain_pct": 41.62405286926927
+  },
+  {
+   "users": 8,
+   "interleaved_Mbps": 55.1697823508252,
+   "best_Mbps": 85.1723284942703,
+   "gain_pct": 54.382208638523544
+  },
+  {
+   "users": 16,
+   "interleaved_Mbps": 55.12021551011697,
+   "best_Mbps": 90.85622633590414,
+   "gain_pct": 64.83285759147304
+  },
+  {
+   "users": 32,
+   "interleaved_Mbps": 55.35499158364911,
+   "best_Mbps": 95.47446175302326,
+   "gain_pct": 72.47669816505716
+  }
+ ],
+ "rmin": 2.0
+}

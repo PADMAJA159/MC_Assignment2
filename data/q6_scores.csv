@@ -1,0 +1,5 @@
+deployment,FDMA,TDMA,CDMA,OFDMA,SDMA,winner,runner_up,margin,OAT_flips,MC_same_winner_pct
+1 Wide-area cellular voice,3.1,2.8,3.3,2.95,2.75,CDMA,FDMA,0.2,none,97.42
+2 Jam-resistant tactical link,2.4,2.5,3.8,2.9,2.4,CDMA,OFDMA,0.9,none,100.0
+3 High-rate stadium downlink,2.25,2.6,2.75,4.3,3.1,OFDMA,SDMA,1.2,none,100.0
+"4 5,000 low-rate sensors",2.05,3.05,2.7,2.8,1.35,TDMA,OFDMA,0.25,none,100.0
